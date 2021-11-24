@@ -11,25 +11,23 @@
   <body class="bg-gray-800">
     <!-- HEADER -->
     <div class="h-screen w-11/12 md:w-3/4 mx-auto">
-      <header class="py-6 border-b border-gray-700 flex justify-between items-center select-none">
+      <header class="py-6 border-b border-gray-700 flex flex-col sm:flex-row justify-between items-center select-none">
         <!-- header logo -->
         <div class="flex items-end">
           <img class="w-8 mr-2" src=".//assets/logo.png" alt="Logo" />
           <h1 class="inline-block text-pink-600 text-lg font-bold">TheGOAT7 <span class="text-gray-200">RESUME</span></h1>
         </div>
         <!-- header buttons -->
-        <div>
-          <button class="ml-3 font-semibold text-gray-200 hover:text-gray-100 transition ease-out duration-500" onclick="print()">Print</button>
-          <button class="ml-3 font-semibold text-pink-600 hover:text-pink-500 transition ease-out duration-500" type="submit" onclick="window.open('./assets/ShaherAshraf_resume.pdf')">
-            Download
-          </button>
+        <div class="flex justify-between w-32 mt-4 sm:mt-0">
+          <button class="font-semibold text-gray-200 hover:text-gray-100 transition ease-out duration-500" onclick="print()">Print</button>
+          <button class="font-semibold text-pink-600 hover:text-pink-500 transition ease-out duration-500" type="submit" onclick="window.open('./assets/ShaherAshraf_resume.pdf')">Download</button>
         </div>
       </header>
       <!-- END OF HEADER -->
 
       <!-- MAIN CONTENT -->
-      <main class="w-5/6 mx-auto h-5/6 flex items-center">
-        <iframe class="frame h-5/6 w-full p-6 bg-gray-200 border-4 border-pink-600" src="./resume.html"></iframe>
+      <main class="sm:w-5/6 mx-auto h-5/6 flex items-center">
+        <iframe class="frame h-5/6 w-full p-6 pr-0 bg-gray-200 border-4 border-pink-600" src="./resume.html"></iframe>
       </main>
       <!-- END OF MAIN CONTENT -->
     </div>
