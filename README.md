@@ -13,7 +13,7 @@
 
 ### Screenshot
 
-![](./public/assets/screenshot.png)
+![](./public/assets/Screenshot.png)
 
 ### Links
 
