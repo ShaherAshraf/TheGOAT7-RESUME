@@ -24,7 +24,7 @@
 ### Built with
 
 - HTML5 
-- Tailwind CSS
+- [Tailwind CSS](https://tailwindcss.com/)
 - JavaScript
 
 ## Author
