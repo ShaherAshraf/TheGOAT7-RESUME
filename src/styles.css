@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: underline;
+  color: #db2777;
+}
+
+.contactItem {
+  @apply flex items-center h-5;
+}
+
+.icon {
+  @apply w-3 mr-4 fill-current text-gray-800;
+}
+
+.sectionTitle {
+  @apply text-3xl font-extrabold;
+}
+
+.projectTitle {
+  @apply text-xl font-bold;
+}
+
+.projectDesc {
+  @apply text-sm list-inside list-disc;
+}
